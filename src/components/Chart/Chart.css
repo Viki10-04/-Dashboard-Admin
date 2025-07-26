@@ -1,0 +1,29 @@
+/* .Chart {
+  width: 1360px;
+  height: 100%;
+  padding: 20px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  padding-left: 40px;
+}
+
+.ChartTitle{
+  width: 200px;
+} */
+
+.Chart {
+  width: 1180px;
+  margin: 40px;
+  margin-left: 40px;
+  padding: 20px;
+  padding-left: 20px;
+  box-shadow: 0 0 15px -10px rgba(0, 0, 0, 0.75);
+  overflow: hidden;
+
+}
+
+.ChartTitle {
+  margin-bottom: 20px;
+  align-self: center;
+}

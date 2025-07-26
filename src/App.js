@@ -1,8 +1,21 @@
 import './App.css';
+import routes from './routes'
+import { useRoutes } from 'react-router-dom';
+import TopBar from './components/TopBar/TopBar.jsx'
+import SidBar from './components/SidBar/SidBar.jsx'
 
 function App() {
+
+  let router = useRoutes(routes)
+
   return (
-    <h1>hi</h1>
+    <>
+      <TopBar />
+      <div className="container">
+        <SidBar />
+        {router}
+      </div>
+    </>
   );
 }
 
