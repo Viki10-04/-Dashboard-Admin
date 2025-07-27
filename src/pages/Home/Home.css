@@ -1,9 +1,12 @@
 .Home{
     overflow: hidden;
-    /* flex: 4; */
 }
 
 .HomeWidgets{
     display: flex;
+    margin: 40px;
+}
+
+.ch {
     margin: 40px;
 }

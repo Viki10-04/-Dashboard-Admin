@@ -12,17 +12,15 @@
   width: 200px;
 } */
 
+.Chr {
+}
+
 .Chart {
-  width: 1180px;
-  margin: 40px;
-  margin-left: 40px;
   padding: 20px;
   padding-left: 20px;
   box-shadow: 0 0 15px -10px rgba(0, 0, 0, 0.75);
   overflow: hidden;
-
 }
-
 .ChartTitle {
   margin-bottom: 20px;
   align-self: center;

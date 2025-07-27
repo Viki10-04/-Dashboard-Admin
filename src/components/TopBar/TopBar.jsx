@@ -32,7 +32,7 @@ export default function TopBar() {
               <div className="notificationsIcon">
                 <SettingsIcon />
               </div>
-              <img src="./images/profile.jpg" alt="profile" className='topAvatar'/>
+              <img src="/images/profile.jpg" alt="profile" className='topAvatar'/>
             </div>
           </div>
 

@@ -3,6 +3,7 @@
     height: 100hv;
     background-color: rgb(251, 251, 255);
     position: sticky;
+    width: 220px;
 }
 
 .SideBarWrapper {

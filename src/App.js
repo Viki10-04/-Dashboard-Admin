@@ -13,7 +13,7 @@ function App() {
       <TopBar />
       <div className="container">
         <SidBar />
-        {router}
+        <div className='emp'>{router}</div>
       </div>
     </>
   );

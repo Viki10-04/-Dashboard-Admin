@@ -1,6 +1,7 @@
 import './WidgetSmall.css'
 import React from 'react'
 import VisibilityIcon from '@mui/icons-material/Visibility';
+import {NewMembers} from './../../Data'
 
 
 export default function WidgetSmall() {
@@ -8,14 +9,16 @@ export default function WidgetSmall() {
     <div className="WidgetSmall">
         <spa className="WidgetSmallTitlte">New Join Members</spa>
         <ul className="WidgetSmallList">
-            <li className="WidgetSmallItem">
-                <img src="./images/profile.jpg" alt="profile" className='WidgetSmallImg'/>
+          {NewMembers.map(user => (
+            <li className="WidgetSmallItem" key={user.key}>
+                <img src={user.img} alt="profile" className='WidgetSmallImg'/>
                 <div className="WidgetSmallUser">
-                  <span className="WidgetSmallUserName">Vida</span>
-                  <spam className="WidgetSmallUserTitle">web developer</spam>
+                  <span className="WidgetSmallUserName">{user.username}</span>
+                  <spam className="WidgetSmallUserTitle">{user.title}</spam>
                 </div>
                 <button className="WidgetSmallBtn"><VisibilityIcon className='WidgetSmallIcon'/></button>
             </li>
+          ))}
         </ul>
     </div>
   )
